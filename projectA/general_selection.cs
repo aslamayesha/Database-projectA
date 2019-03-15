@@ -30,5 +30,26 @@ namespace databaseproject
             G.Show();
             this.Hide();
         }
+
+        private void addAdvisorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            General_Advisor g = new General_Advisor();
+            g.Show();
+            this.Hide();
+        }
+
+        private void addProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            project p = new project();
+            this.Hide();
+            p.Show();
+        }
+
+        private void addEvaluationCategoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Evaluation E = new Evaluation();
+            this.Hide();
+            E.Show();
+        }
     }
 }

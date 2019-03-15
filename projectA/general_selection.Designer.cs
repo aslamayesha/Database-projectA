@@ -35,15 +35,15 @@
             this.makeGoupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectAdvisorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageAdvisorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.manageProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.addAdvisorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addProjectToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.manageEvaluationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addEvaluationCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupEvaluationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,6 +100,13 @@
             this.manageAdvisorToolStripMenuItem.Size = new System.Drawing.Size(120, 21);
             this.manageAdvisorToolStripMenuItem.Text = "Manage Advisor";
             // 
+            // addAdvisorToolStripMenuItem
+            // 
+            this.addAdvisorToolStripMenuItem.Name = "addAdvisorToolStripMenuItem";
+            this.addAdvisorToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.addAdvisorToolStripMenuItem.Text = "Add advisor";
+            this.addAdvisorToolStripMenuItem.Click += new System.EventHandler(this.addAdvisorToolStripMenuItem_Click);
+            // 
             // manageProjectToolStripMenuItem
             // 
             this.manageProjectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,32 +116,12 @@
             this.manageProjectToolStripMenuItem.Size = new System.Drawing.Size(116, 21);
             this.manageProjectToolStripMenuItem.Text = "Manage Project";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 166);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(394, 39);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome to FYP portal";
-            // 
-            // addAdvisorToolStripMenuItem
-            // 
-            this.addAdvisorToolStripMenuItem.Name = "addAdvisorToolStripMenuItem";
-            this.addAdvisorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.addAdvisorToolStripMenuItem.Text = "Add advisor";
-            // 
             // addProjectToolStripMenuItem
             // 
             this.addProjectToolStripMenuItem.Name = "addProjectToolStripMenuItem";
             this.addProjectToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.addProjectToolStripMenuItem.Text = "Add Project";
+            this.addProjectToolStripMenuItem.Click += new System.EventHandler(this.addProjectToolStripMenuItem_Click);
             // 
             // addProjectToolStripMenuItem1
             // 
@@ -156,12 +143,28 @@
             this.addEvaluationCategoryToolStripMenuItem.Name = "addEvaluationCategoryToolStripMenuItem";
             this.addEvaluationCategoryToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.addEvaluationCategoryToolStripMenuItem.Text = "Add Evaluation Category";
+            this.addEvaluationCategoryToolStripMenuItem.Click += new System.EventHandler(this.addEvaluationCategoryToolStripMenuItem_Click);
             // 
             // groupEvaluationToolStripMenuItem
             // 
             this.groupEvaluationToolStripMenuItem.Name = "groupEvaluationToolStripMenuItem";
             this.groupEvaluationToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.groupEvaluationToolStripMenuItem.Text = "Group Evaluation";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(22, 166);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(394, 39);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Welcome to FYP portal";
             // 
             // general_selection
             // 

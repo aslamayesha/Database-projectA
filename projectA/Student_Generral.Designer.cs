@@ -50,7 +50,7 @@
             this.lblemail = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.StudentDatagrid = new System.Windows.Forms.DataGridView();
-            this.btnUpdate = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.StudentDatagrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,7 +124,7 @@
             this.txtdatetime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtdatetime.Location = new System.Drawing.Point(273, 289);
+            this.txtdatetime.Location = new System.Drawing.Point(273, 284);
             this.txtdatetime.Name = "txtdatetime";
             this.txtdatetime.Size = new System.Drawing.Size(484, 20);
             this.txtdatetime.TabIndex = 7;
@@ -275,23 +275,22 @@
             this.StudentDatagrid.TabIndex = 22;
             this.StudentDatagrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudentDatagrid_CellContentClick);
             // 
-            // btnUpdate
+            // label8
             // 
-            this.btnUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnUpdate.Location = new System.Drawing.Point(544, 380);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(100, 35);
-            this.btnUpdate.TabIndex = 23;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(273, 311);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 13);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "Required Field";
             // 
             // Student_Generral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 659);
-            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.StudentDatagrid);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblemail);
@@ -347,6 +346,6 @@
         private System.Windows.Forms.Label lblemail;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView StudentDatagrid;
-        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Label label8;
     }
 }
