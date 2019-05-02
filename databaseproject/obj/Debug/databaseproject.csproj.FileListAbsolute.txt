@@ -37,3 +37,6 @@ C:\Users\FINEC\documents\visual studio 2015\Projects\databaseproject\databasepro
 C:\Users\FINEC\documents\visual studio 2015\Projects\databaseproject\databaseproject\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\FINEC\documents\visual studio 2015\Projects\databaseproject\databaseproject\bin\Debug\stdole.dll
 C:\Users\FINEC\documents\visual studio 2015\Projects\databaseproject\databaseproject\obj\Debug\databaseproject.Report2.resources
+C:\Users\FINEC\Desktop\Database-projectA\databaseproject\bin\Debug\databaseproject.exe.config
+C:\Users\FINEC\Desktop\Database-projectA\databaseproject\obj\Debug\databaseproject.exe
+C:\Users\FINEC\Desktop\Database-projectA\databaseproject\obj\Debug\databaseproject.pdb
